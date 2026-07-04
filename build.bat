@@ -10,11 +10,11 @@ if errorlevel 1 goto :error
 copy /b boot.bin+kernel.bin os.img >nul
 
 echo.
-echo Done! Created os.img
+echo Done! Created the os.img
 pause
 exit /b
 
 :error
 echo.
-echo Build failed.
+echo Your build sucks lmao
 pause
